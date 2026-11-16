@@ -2,6 +2,8 @@
 
 VistAI is an AI commentary and 360° VR experience app built with [A-Frame](https://aframe.io/). Explore immersive video scenes with selectable AI-generated commentary voices.
 
+[View the VistAI project poster](Poster.pdf)
+
 ## Features
 
 - 360° video playback with mouse, touch, and device-orientation camera controls
@@ -25,6 +27,7 @@ Open [http://localhost:8000](http://localhost:8000) in a browser. Click the page
 ```text
 .
 ├── index.html
+├── Poster.pdf
 ├── assets/
 │   ├── audio/
 │   │   ├── commentary-man-v1.mp3
