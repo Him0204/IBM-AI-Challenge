@@ -1,6 +1,9 @@
-<html>
+<!doctype html>
+<html lang="en">
   <head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>360° VR Experience</title>
     <script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
 
     <style>
@@ -162,8 +165,8 @@
         <div class="control-group">
           <label>🎬 Video Source</label>
           <select id="videoSelector">
-            <option value="video360.mp4">Video 360 v1</option>
-            <option value="video360v2.mp4" selected>Video 360 v2</option>
+            <option value="assets/video/video-360-v1.mp4">Video 360 v1</option>
+            <option value="assets/video/video-360-v2.mp4" selected>Video 360 v2</option>
           </select>
         </div>
 
@@ -185,11 +188,11 @@
     <a-scene>
       <!-- 360 video source (outside scene for better control) -->
       <a-assets>
-        <video id="v360" src="video360v2.mp4" autoplay loop crossorigin="anonymous" playsinline muted></video>
-        <audio id="commentaryMale" src="man.mp3" preload="auto"></audio>
-        <audio id="commentaryFemale" src="woman.mp3" preload="auto"></audio>
-        <audio id="commentaryMaleV2" src="manv2.mp3" preload="auto"></audio>
-        <audio id="commentaryFemaleV2" src="womanv2.mp3" preload="auto"></audio>
+        <video id="v360" src="assets/video/video-360-v2.mp4" autoplay loop crossorigin="anonymous" playsinline muted></video>
+        <audio id="commentaryMale" src="assets/audio/commentary-man-v1.mp3" preload="auto"></audio>
+        <audio id="commentaryFemale" src="assets/audio/commentary-woman-v1.mp3" preload="auto"></audio>
+        <audio id="commentaryMaleV2" src="assets/audio/commentary-man-v2.mp3" preload="auto"></audio>
+        <audio id="commentaryFemaleV2" src="assets/audio/commentary-woman-v2.mp3" preload="auto"></audio>
       </a-assets>
 
       <!-- 360 video sphere -->
@@ -304,7 +307,7 @@
         }
         
         // Switch commentary tracks based on video
-        if (src === 'video360.mp4') {
+        if (src === 'assets/video/video-360-v1.mp4') {
           commentaryTracks = commentaryTracksV1;
         } else {
           commentaryTracks = commentaryTracksV2;
