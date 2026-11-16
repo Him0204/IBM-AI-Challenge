@@ -1,6 +1,6 @@
 # VistAI
 
-VistAI is a browser-based 360° virtual reality experience built with [A-Frame](https://aframe.io/). Explore an immersive video scene, switch between video versions, and optionally play male or female commentary tracks.
+VistAI is an AI commentary and 360° VR experience app built with [A-Frame](https://aframe.io/). Explore immersive video scenes with selectable AI-generated commentary voices.
 
 ## Features
 
