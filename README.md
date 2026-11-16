@@ -1,6 +1,6 @@
-# 360° VR Experience
+# VistAI
 
-A browser-based 360° virtual reality experience built with [A-Frame](https://aframe.io/). Explore an immersive video scene, switch between video versions, and optionally play male or female commentary tracks.
+VistAI is a browser-based 360° virtual reality experience built with [A-Frame](https://aframe.io/). Explore an immersive video scene, switch between video versions, and optionally play male or female commentary tracks.
 
 ## Features
 
